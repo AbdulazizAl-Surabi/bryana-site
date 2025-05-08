@@ -9,11 +9,7 @@ export default function Intro() {
     <div className="intro-container">
       {step === 0 && (
         <>
-          <p>
-            Hey babe, can you believe it’s been 5 months already? So far we’ve
-            only traveled together—no movie marathons or lazy Sundays yet, just
-            one sweet trip at a time.
-          </p>
+          <p>Hey babe, can you believe it’s been 5 months already?.</p>
           <p>
             I planned something fun: this Sunday, 11th May, is our Game Night
             Date! I even built this little site to kick things off. Want to join
