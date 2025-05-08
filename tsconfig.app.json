@@ -8,6 +8,8 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": { "@/*": ["src/*"] },
+    "types": ["node"],
+    "moduleResolution": "node",
 
     /* Bundler mode */
     "moduleResolution": "bundler",

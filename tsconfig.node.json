@@ -5,10 +5,13 @@
     "lib": ["ES2023"],
     "module": "ESNext",
     "skipLibCheck": true,
-    
 
-    /* Bundler mode */
-    "moduleResolution": "bundler",
+    /* Node‑Typen aktivieren */
+    "types": ["node"],
+    /* Hier nur noch Node‑Resolution */
+    "moduleResolution": "node",
+
+    /* Du kannst die bundler‑Option entfernen */
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
