@@ -32,7 +32,6 @@ export default function SpinWheel() {
         mustStartSpinning={mustSpin}
         prizeNumber={prizeNumber}
         data={segments}
-        size={450} // Durchmesser auf 450px
         fontSize={18} // Text größer machen
         backgroundColors={["#FCE3BB", "#D5A077"]}
         textColors={["#333"]}
