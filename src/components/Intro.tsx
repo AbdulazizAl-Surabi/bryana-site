@@ -73,7 +73,7 @@ export default function Intro() {
             journey continues!
           </p>
           {/* Hier fügt das Bild ein */}
-          <img src="/public/us.jpeg" alt="Us" className="intro-image" />
+          <img src="/us.jpeg" alt="Us" className="intro-image" />
         </>
       )}
     </div>
