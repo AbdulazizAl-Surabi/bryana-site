@@ -1,0 +1,41 @@
+.wheel-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Breite und Höhe an den size‑Prop anpassen */
+  width: 450px;
+  margin: 0 auto;
+}
+
+.wheel-wrapper h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.wheel-wrapper button {
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: #4a90e2;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 200ms;
+}
+
+.wheel-wrapper button:disabled {
+  background: #888;
+  cursor: not-allowed;
+}
+
+.wheel-wrapper button:hover:not(:disabled) {
+  background: #357ab8;
+}
+
+.wheel-wrapper .result {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}

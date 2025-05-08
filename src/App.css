@@ -1,0 +1,80 @@
+
+
+/* App‑Container zentriert mit hellem Peach‑Overlay */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(252, 227, 187, 0.8); /* #FCE3BB bei 80% Deckkraft */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* src/App.css */
+
+/* Überschrift größer */
+.app-container h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;        /* statt 2rem */
+}
+
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.tabs button {
+  background: #FCE3BB;   /* helles Peach */
+  color: #333;
+  transition: background 200ms, color 200ms;
+}
+.tabs button:hover {
+  background: #E6D0A8;   /* etwas dunklerer Peach‑Ton */
+}
+.tabs button.active {
+  background: #D5A077;   /* dunkleres Braun‑Peach */
+  color: #fff;
+}
+
+/* Tab‑Inhalt */
+.tab-content {
+  width: 100%;
+}
+
+/* Falls du noch das Glücksrad‑Placeholder nutzt */
+.wheel-placeholder {
+  margin: 1rem auto;
+  font-size: 1.25rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  width: 80%;
+}
+
+/* Generelle Buttons (z.B. Drehen‑Button) */
+button {
+  background: #FCE3BB;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  transition: background 200ms, color 200ms;
+}
+button:hover {
+  background: #D5A077;
+  color: #fff;
+}
+button:disabled {
+  background: #eee;
+  color: #aaa;
+  cursor: not-allowed;
+}
